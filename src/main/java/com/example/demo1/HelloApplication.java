@@ -33,11 +33,28 @@ public class HelloApplication extends Application {
         System.out.println("Byte Maximum Value = " + myMaxByteValue);
 
 
-        short myMinShortValue = Short.MIN_VALUE;
-        short myMaxShortValue = Short.MAX_VALUE;
-        System.out.println("Short Minimum Value = " + myMinShortValue);
-        System.out.println("Short Maximum Value = " + myMaxShortValue);
+//        long myMinlongValue = long.MIN_VALUE;
+//        long myMaxlongValue = long.MAX_VALUE;
+//        System.out.println("long Minimum Value = " + myMinlongValue);
+//        System.out.println("long Maximum Value = " + myMaxlongValue);
 
+        long myLongValue = 100L;
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println("long Minimum Value = " + myMinLongValue);
+        System.out.println("long Maximum Value = " + myMaxLongValue);
+
+        double myMinDoubleValue = Double.MIN_VALUE;
+        double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double minimum value = "+ myMinDoubleValue);
+        System.out.println("Double maximum value =" + myMaxDoubleValue);
+
+        int myIntValue = 5 / 3;
+        float myFloatValue = 5f / 3f;
+        double myDoubleValue = 5.00 / 3.00d;
+        System.out.println("MyIntValue="+ myIntValue);
+        System.out.println("MyFloatValue="+ myFloatValue);
+        System.out.println("MyDoubleValue=" + myDoubleValue);
 
 
     }
